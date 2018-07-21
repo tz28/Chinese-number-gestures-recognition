@@ -35,7 +35,7 @@ APP端：Android studio3.1.2, TensorFlow Lite, opencv-3.4.0-android-sdk
 
 ![](img/data_example.jpg)
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 数据集还是太少了，因此，有奉献精神的同学，可以把您拍到的照片放到 **collect_picture** 文件下，命名规则参照上面的命名，原则上，命名只要保证 “标签_”即可，“_”后面随意。
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ***数据集还是太少了，因此，有奉献精神的同学，可以把您拍到的照片放到 collect_picture 文件下，命名规则参照上面的命名，原则上，命名只要保证 “标签_”即可，“_”后面随意。***
 
 
 ### 3.2、数据增强（data augmentation）后的数据集
