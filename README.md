@@ -40,7 +40,7 @@ APP端：Android studio3.1.2, TensorFlow Lite, opencv-3.4.0-android-sdk
 
 ### 3.2、数据增强（data augmentation）后的数据集
 
-地址：
+地址：https://pan.baidu.com/s/1_tLq_HcSmI1kg7VY9pnG5g
 
 原始图片通过平移，拉伸，旋转等操作，每张图片生成100张，使用的生成代码为 digital_gesture_recognition/data_augmentation.py。故生成后的数据集共21592张图片。
 
