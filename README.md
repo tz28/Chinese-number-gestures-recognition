@@ -14,8 +14,6 @@ PC端：python3.6, TensorFlow-gpu1.8, keras2.1.6, PIL，硬件NVIDIA GTX1070, 16
 
 APP端：Android studio3.1.2, TensorFlow Lite, opencv-3.4.0-android-sdk
 
-APP中相机部分使用了CHNicelee的代码，地址：https://github.com/CHNicelee/CameraDemo 感谢。CHNicelee关于此相机代码的博客地址：https://blog.csdn.net/q1242027878/article/details/78704837
-
 ## 2、APP识别结果演示
 
 ### 2.1、白天场景
@@ -28,9 +26,9 @@ APP中相机部分使用了CHNicelee的代码，地址：https://github.com/CHNi
 ![](img/复杂场景碰运气.jpg)
 
 ### 2.4、演示视频
-YouTube：https://youtu.be/-vi4iFSrtjo
+YouTube：
 
-bilibili：https://www.bilibili.com/video/av27392614/
+bilibili：
 
 ## 3、数据集
 ### 3.1、原始数据集
@@ -47,7 +45,7 @@ bilibili：https://www.bilibili.com/video/av27392614/
 
 原始图片通过平移，拉伸，旋转等操作，每张图片生成100张，使用的生成代码为 digital_gesture_recognition/data_augmentation.py。故生成后的数据集共21592张图片。
 
-**NOTE:** 该数据集大小为11.6GB，压缩后约11GB。如果您的网络带宽下载速度较慢，可以常用使用原始数据集和digital_gesture_recognition/data_augmentation.py自己重新生成。
+**NOTE:** 该数据集大小为11.6GB，压缩后约11GB。如果您的网络带宽下载速度较慢，可以使用原始数据集和digital_gesture_recognition/data_augmentation.py自己重新生成。
 
 ### 3.3、压缩后的数据集
 
@@ -78,5 +76,5 @@ digital_gesture_recognition/model_200中为epoch=200训练得到的模型，也�
 
 关于此项目其它的介绍，请参见本人博客：https://blog.csdn.net/u012328159/article/details/81123018
 
-
+注：APP中相机部分使用了CHNicelee的代码，地址：https://github.com/CHNicelee/CameraDemo 感谢。CHNicelee关于此相机代码的博客地址：https://blog.csdn.net/q1242027878/article/details/78704837
 
