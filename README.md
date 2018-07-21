@@ -14,7 +14,7 @@ PC端：python3.6, TensorFlow-gpu1.8, keras2.1.6, PIL，硬件NVIDIA GTX1070, 16
 
 APP端：Android studio3.1.2, TensorFlow Lite, opencv-3.4.0-android-sdk
 
-APP中相机部分使用了CHNicelee的代码，地址：https://github.com/CHNicelee/CameraDemo 感谢。他关于此项目的博客地址：https://blog.csdn.net/q1242027878/article/details/78704837
+APP中相机部分使用了CHNicelee的代码，地址：https://github.com/CHNicelee/CameraDemo 感谢。CHNicelee关于此相机代码的博客地址：https://blog.csdn.net/q1242027878/article/details/78704837
 
 ## 2、APP识别结果演示
 
