@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.ice.coursetable.CameraActivity">
+
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:padding="3px"
+                android:background="@drawable/circle_shape"
+
+                android:id="@+id/iv_thumb"
+                android:layout_width="@dimen/camera_thumb_Height"
+                android:layout_height="@dimen/camera_thumb_Height"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp" />
+
+            <ImageButton
+                android:id="@+id/btn_control"
+                android:layout_width="@dimen/camera_control_Height"
+                android:layout_height="@dimen/camera_control_Height"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/takephoto" />
+
+            <LinearLayout
+                android:layout_marginRight="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:padding="10dp"
+                android:background="@drawable/circle_shape"
+
+                android:id="@+id/iv_change"
+                android:layout_width="@dimen/camera_thumb_Height"
+                android:layout_height="@dimen/camera_thumb_Height"
+                android:scaleType="centerInside"
+                android:src="@drawable/change" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_flash"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:translationZ="20dp"
+        android:src="@drawable/flash"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/iv_flash"
+        android:text="关闭"
+        android:id="@+id/tv_flash_status"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <include
+        android:visibility="gone"
+        android:id="@+id/layout_flash_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/tv_flash_status"
+        layout="@layout/flash_layout"></include>
+</RelativeLayout>

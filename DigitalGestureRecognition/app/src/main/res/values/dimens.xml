@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weekHeight">50dp</dimen>
+    <dimen name="gridHeight">60dp</dimen>
+    <dimen name="leftGridWidth">20dp</dimen>
+    <dimen name="courseWidth">40dp</dimen>
+    <dimen name="camera_thumb_Height">50dp</dimen>
+    <dimen name="camera_control_Height">60dp</dimen>
+    <dimen name="flash_height">30dp</dimen>
+    <dimen name="flash_text_padding_top">2dp</dimen>
+    <dimen name="flash_text_padding_left">8dp</dimen>
+</resources>
