@@ -1,4 +1,4 @@
-[中文](https://github.com/tz28/Chinese-number-gestures-recognition/edit/master/README.md) &#124; English
+[中文](https://github.com/tz28/Chinese-number-gestures-recognition/blob/master/README.md) &#124; English
 
 # Chinese-number-gestures-recognition
 Chinese number gestures recognition app（Android），which can recognize number 0 to 10.
