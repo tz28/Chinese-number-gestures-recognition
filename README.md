@@ -1,3 +1,5 @@
+
+中文 &#124; [English](https://github.com/tz28/Chinese-number-gestures-recognition/blob/master/README.en-US.md)
 # Chinese-number-gestures-recognition
 Chinese number gestures recognition app（数字手势识别APP，识别0-10）
 
