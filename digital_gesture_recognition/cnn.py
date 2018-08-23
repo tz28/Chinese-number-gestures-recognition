@@ -114,9 +114,9 @@ def cnn_model(X_train, y_train, X_test, y_test, keep_prob, lamda, num_epochs = 4
 	# maxpool3 = max_pool_2x2(z3)  # max_pool3,shape [?,8,8,128]
 
 	#full connection1
-	W_fc1 = weight_variable([8*8*128, 200])
+	W_fc1 = weight_variable([16*16*64, 200])
 	b_fc1 = bias_variable([200])
-	maxpool2_flat = tf.reshape(maxpool2, [-1, 8*8*128])
+	maxpool2_flat = tf.reshape(maxpool2, [-1, 16*16*64])
 	z_fc1 = tf.nn.relu(tf.matmul(maxpool2_flat, W_fc1) + b_fc1)
 	z_fc1_drop = tf.nn.dropout(z_fc1, keep_prob=kp)
 
