@@ -34,9 +34,7 @@ APP：Android studio3.1.2, TensorFlow Lite, opencv-3.4.0-android-sdk
 
 url：https://pan.baidu.com/s/1whTtvo6GjIFbfKTYXzTZgQ 
 
-The original data consists of 215 digital gestures pictures and those pictures were taken by me, Na Li(my gf), my friends Wen Jiang, Yuzhang Song, 
-Zhongjun Peng, Meng Zhang, Cheng Yuan, Shouyi Xing and Chao Zheng(ranking is no different, everyone have the same contributes). 
-So, thanks so much for your support. The corresponding label of each picture have been tagged in the name of the picture. 
+The original data consists of 215 digital gestures pictures and those pictures were taken by my friends， thanks so much for their support. The corresponding label of each picture have been tagged in the name of the picture. 
 The name of the picture is: label_ identifier. For example:
 
 ![](img/data_example.jpg)
